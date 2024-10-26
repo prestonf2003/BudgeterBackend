@@ -1,0 +1,6 @@
+﻿services:
+  budgetmaker:
+    image: budgetmaker
+    build:
+      context: .
+      dockerfile: BudgetMaker/Dockerfile
